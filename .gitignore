@@ -1,0 +1,14 @@
+node_modules
+build
+
+# asdf: https://asdf-vm.com/
+.tool-versions
+
+# VSCode
+.vscode
+*.code-workspace
+
+# Meldmerge
+*.orig
+
+cypress/screenshots

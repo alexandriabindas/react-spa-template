@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./build/",
+    "strict": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "ES6",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "typeRoots": ["src/@types"],
+    "types": [
+      "cypress",
+      "node"
+    ]
+  }
+}
